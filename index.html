@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canvas Sandbox</title>
-</head>
-<body>
-    <canvas id="main_canvas"></canvas>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script src="main.js"></script>
-</body>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Klein TPG</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="nav-top">
+        <a class="header-link" href="#">Projects</a>
+        <a class="header-link" href="#">About</a>
+        <a class="header-link" href="#">Contact</a>
+      </div>
+      <h1 id="title">Welcome to KleinTPG.</h1>
+      <hr id="border-header-main">
+    </header>
+
+    <main>
+      <h2 id="greeting">
+        <span style="word-spacing: 0">Guten Tag</span> Hello こんにちは
+      </h2>
+      <p id="description">
+        I am a professional software engineer going by the pseudonym KleinTPG
+        and this is a collection of my personal projects.
+      </p>
+      <div id="nav-bot">
+        <a class="footer-link" href="#">Projects</a>
+        <a class="footer-link footer-link-border" href="#">About</a>
+        <a class="footer-link" href="#">Contact</a>
+      </div>
+    </main>
+    <footer>   
+      <hr id="border-main-footer">
+      <div id="footer-content">
+        <a href="https://www.flaticon.com/free-icons/user" title="user icons"
+        >User icons created by Freepik - Flaticon</a>
+      <p>© KleinTPG</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./main.js"></script>
+  </body>
 </html>
